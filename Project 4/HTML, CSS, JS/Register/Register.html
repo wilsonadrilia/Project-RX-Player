@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="../Home/Main.html"><img src="../Assets/Logo.png" alt=""></a>
+            </div>
+
+            
+        </nav>
+    </header>
+
+    <body>
+        
+        <div class="register-box">
+            <h1>Register</h1>
+            <form>
+                <label>First name</label>
+                <input type="text" name="form" placeholder="First name" id="first-name">
+                <label>Last name</label>
+                <input type="text" name="form" placeholder="Last name" id="last-name">
+                <label>Email</label>
+                <input type="email" name="form" placeholder="Your email address" id="email">
+                <label>Gender</label>
+                <input type="text" class="gender" name="form" placeholder="Male / Female" id="gender">
+                <label>Password</label>
+                <input type="password" name="form" placeholder="Password" id="password">
+                <label>Confirm password</label>
+                <input type="password" name="form" placeholder="Confirm password" id="confirm-pass">
+                <label>Payment method</label>
+                <div class="option">
+                    <select name="" id="option">
+                        <option selected disabled>Choose payment method</option>
+                        <option value="1" id="card-1">Payment card</option>
+                        <option value="2" id="card-2">Credit card</option>
+                    </select>
+                </div>
+                <!-- <label>Payment method</label>
+                <input type="text" name="form" placeholder="Credit card / Debit card" id="payment"> -->
+                <label>
+                    <input type="checkbox" name="checkbox" id="checkbox">Agree to terms and conditions
+                </label>
+            </form>
+            <a href="../Home/Main.html"><input type="submit" id="submitBtn" value="Sign up" onclick="return Validate()"></a>
+        </div>
+        
+
+        
+        
+        <script src="Register.js"></script>
+    </body>
+
+    <footer>
+        <div class="sosmed">
+            <img src="../Assets/Logo/logofb.png">
+            <img src="../Assets/Logo/logoig.png">
+            <img src="../Assets/Logo/logotwt.png">
+        </div>
+    </footer>
+</body>
+</html>
